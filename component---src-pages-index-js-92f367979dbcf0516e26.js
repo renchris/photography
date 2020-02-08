@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{RXBc:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),o=t("Bl7J"),r=t("hIod");n.default=function(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"Home"}),l.a.createElement("h1",null,"Welcome to my World!"),l.a.createElement("h2",null,"Hello, I'm Chris, a software developer and photographer here in Vancouver BC"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-92f367979dbcf0516e26.js.map
