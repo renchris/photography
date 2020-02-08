@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{RXBc:function(e,t,o){"use strict";o.r(t);var a=o("q1tI"),n=o.n(a),l=o("Wbzz"),c=o("Bl7J"),r=o("hIod");t.default=function(){return n.a.createElement(c.a,null,n.a.createElement(r.a,{title:"Home"}),n.a.createElement("h1",null,"Welcome to my Portfolio!"),n.a.createElement("p",null,"Please check out my photoshoots under my ",n.a.createElement(l.a,{to:"/blog"},"Work Page")))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-9c60cfa9e78d3240e002.js.map
