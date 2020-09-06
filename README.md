@@ -39,10 +39,11 @@ A quick look at the top-level files and directories you'll see in this Gatsby pr
     |     ├── header.module.scss
     |     ├── layout.js
     |     └── layout.module.scss
-    ├── css
-    |     └── typography.css
     ├── fonts
-    |     └── BebasNeue-Regular.ttf
+    |     ├── BebasNeue-Regular.eot
+    |     ├── BebasNeue-Regular.ttf
+    |     ├── BebasNeue-Regular.woff
+    |     └── BebasNeue-Regular.woff2
     ├── logo
     |     └── camera.svg
     ├── pages
@@ -64,13 +65,13 @@ A quick look at the top-level files and directories you'll see in this Gatsby pr
 
 1.  **`/components`**: This directory contains the component files that together make up the webpage. It contains both .js files that uses GraphQL to query data to be used in the JSX and .scss files for formatting and styling, for each component.
 
-1.  **`typography.scss`**: This file contains the font selected to be used for the website: Bebas Neue Regular
-
 1.  **`camera.svg`**: This file is the project logo: the aperture of a camera lens. This is used for the favicon and README.
 
 1.  **`/pages`**: This directory contains the project JavaScript files for each of pages of the website.
 
 1.  **`/posts`**: This directory contains the directories for each post of the Work page. Within each post directory is the respective Markdown file and the photos it uses.
+
+1.  **`index.scss`**: This file contains the general styling of the website and the font selected to be used for the website: Bebas Neue Regular.
 
 1.  **`/templates/work.js`**: This file is the project Javascript file for each of the blog posts with it's complete set of photos (once you've clicked into them). This is not to be confused with /pages/work.js which is the JavaScript file for list blog posts with it's featured image and title.
 
