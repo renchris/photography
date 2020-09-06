@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a>
-    <img alt="Camera" src="src/images/camera.svg" width="60" />
+    <img alt="Camera" src="src/logo/camera.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -18,9 +18,9 @@ _Have an event, product, or something you want to capture? Send me a message if 
 
     Link: https://renchris.github.io/photography/
 
-1.  **Have a look at my projects.**
+1.  **Have a look at my photoshoots.**
 
-    Click a photo to navigate into the respective photoshoot
+    Click a featured photo to view the complete photo set.
 
 1.  **Reach out to work together!**
 
