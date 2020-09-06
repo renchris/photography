@@ -9,27 +9,41 @@ module.exports = {
 
   siteMetadata: {
     title: "Chris Ren",
-    author: "Chris Ren"
+    author: "Chris Ren",
   },
 
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Photography`,
+        short_name: `Photo`,
+        start_url: `.`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: "src/logo/camera.svg",
+      },
+    },
+    "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
-      options: { //how to properly store api keys
+      options: {
+        //how to properly store api keys
         //spaceId: process.env.CONTENTFUL_SPACE_ID,
         //accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
         spaceId: "2nrqdftp624b",
         accessToken: "RG5vEsipoBqj4INAw5bOekl9_IP7oa0_vvcS12QNxgg",
-      }
+      },
     },
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
-        path: `${__dirname}/src/posts`
-      }
+        path: `${__dirname}/src/posts`,
+      },
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -43,15 +57,15 @@ module.exports = {
             options: {
               //maxWidth: "750",
               quality: 100,
-              linkImagesToOriginal: false
-            }
-          }
-        ]
-      }
-    }
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
+    },
 
     //console.log("##########", process.env.CONTENTFUL_SPACE_ID),
     //console.log("##########", process.env.CONTENTFUL_ACCESS_TOKEN)
-  ]
+  ],
   /* Your site config here */
 }
