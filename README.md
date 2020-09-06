@@ -12,7 +12,7 @@ A website for my photography portfolio, utilizing HTML, CSS, GastbyJS, React, Gr
 
 _Have an event, product, or something you want to capture? Send me a message if you would like to work together._
 
-## 🚀 Quick start
+## 🚀 Usage
 
 1.  **Open the Photography Portfolio site.**
 
