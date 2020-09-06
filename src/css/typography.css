@@ -1,4 +1,6 @@
 @font-face {
-    font-family: "Bebas Neue";
-    src: url("../fonts/BebasNeue-Regular.ttf");
-  }
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue-Regular.ttf"),
+    url("../fonts/BebasNeue-Regular.woff"),
+    url("../fonts/BebasNeue-Regular.woff2");
+}
