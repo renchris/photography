@@ -75,5 +75,3 @@ A quick look at the top-level files and directories you'll see in this Gatsby pr
 1)  **`/templates/work.js`**: This file is the project Javascript file for each of the blog posts with it's complete set of photos (once you've clicked into them). This is not to be confused with /pages/work.js which is the JavaScript file for list blog posts with it's featured image and title.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-# photography
