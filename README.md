@@ -68,10 +68,10 @@ A quick look at the top-level files and directories you'll see in this Gatsby pr
 
 1.  **`camera.svg`**: This file is the project logo: the aperture of a camera lens. This is used for the favicon and README.
 
-1)  **`/pages`**: This directory contains the project JavaScript files for each of pages of the website.
+1.  **`/pages`**: This directory contains the project JavaScript files for each of pages of the website.
 
-1)  **`/posts`**: This directory contains the directories for each post of the Work page. Within each post directory is the respective Markdown file and the photos it uses.
+1.  **`/posts`**: This directory contains the directories for each post of the Work page. Within each post directory is the respective Markdown file and the photos it uses.
 
-1)  **`/templates/work.js`**: This file is the project Javascript file for each of the blog posts with it's complete set of photos (once you've clicked into them). This is not to be confused with /pages/work.js which is the JavaScript file for list blog posts with it's featured image and title.
+1.  **`/templates/work.js`**: This file is the project Javascript file for each of the blog posts with it's complete set of photos (once you've clicked into them). This is not to be confused with /pages/work.js which is the JavaScript file for list blog posts with it's featured image and title.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
