@@ -1,18 +1,19 @@
 import React from "react"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
+import Head from "../components/head"
+
+import headerStyles from "../components/header.module.scss"
 
 const ContactPage = () => {
     return (
-        <div>
-            <Header />
+        <Layout>
+            <Head title="Contact" />
             <h1>Contact Page</h1>
-            <p>You may contact me at by leaving me a message at ren.chris@outlook.com</p>
-            <p>Connect with me on Linkedin: <a href="https://www.linkedin.com/in/ren-chris/" target="_blank">Click here</a></p>
-            <Footer />
-        </div>
+            <p>You may contact me at by leaving me an email at ren.chris@outlook.com</p>
+            <p>Connect with me on <a className={headerStyles.link} href="https://www.instagram.com/iloveenvy/" target="_blank">Instagram</a></p>        </Layout>
+
     )
 }
 
-export default ContactPage
+export default ContactPage 

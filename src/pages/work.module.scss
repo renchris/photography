@@ -1,0 +1,65 @@
+.posts {
+    list-style-type: none;
+    margin: 0;
+}
+
+.image, .overlayText{
+    position: absolute;
+}
+
+.image{
+    left: 0;
+    top: 0;
+    transition: 0.25s ease;
+}
+
+
+.post {
+    position: relative;
+    margin: 0.5rem 0;
+    display: grid;
+    text-align: center;
+    
+
+
+    a {
+        background: black;
+        color: #000000;
+        display: block;
+        //padding: 1rem;
+        text-decoration: none;
+        opacity: 1
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    p {
+        color: #777777;
+        font-size: .8rem;
+        font-style: italic;
+    }
+}
+
+
+.post:hover .overlayText{
+    opacity: 1;
+}
+
+.post:hover .image{
+    opacity: 0.35;
+    
+}
+
+.overlayText{
+    opacity: 0;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    color: #ffffff;
+}
+
+
