@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{w2l6:function(e,a,n){"use strict";n.r(a);n("tUrg");var t=n("q1tI"),l=n.n(t),c=n("Wbzz"),o=n("Bl7J"),r=n("hIod"),u=n("aOmW"),i=n.n(u);a.default=function(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"404"}),l.a.createElement("h1",null,"Page not found"),l.a.createElement("p",null,"Head back to ",l.a.createElement(c.Link,{className:i.a.link,to:"/"},"Home Page")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-1ca44fb16f3655eaec67.js.map
