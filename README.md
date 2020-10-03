@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a>
+  <a href="https://renchris.github.io/photography/">
     <img alt="Camera" src="src/logo/camera.svg" width="60" />
   </a>
 </p>
